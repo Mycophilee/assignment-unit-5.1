@@ -25,7 +25,11 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-fullName =
+fullName = {
+  firstName: 'Emma',
+  lastName: 'Wood',
+}
+console.log(fullName)
 
 
 /* 3. Nested arrays
@@ -51,3 +55,4 @@ me.shoeCount = me.shoeCount + 1;
   - Console.log your object
 */
 me.favoriteColor= 'yellow';
+console.log('yellow')
